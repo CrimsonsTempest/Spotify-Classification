@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS spotify_db;
+USE spotify_db;
+
 CREATE TABLE IF NOT EXISTS spotify_tracks (
     idx INT,
     track_id STRING,
